@@ -1,4 +1,4 @@
-let umur = prompt ("Masukkan Angka");
+//let umur = prompt ("Masukkan Angka");
 let convert= parseInt(umur);
 console.log(convert);
 if (isNaN(convert)) alert ("Masukkan Angka");
@@ -50,3 +50,15 @@ switch (language) {
 }
 
 console.log(greeting);
+
+let umur = 17;
+
+if (umur <= 17) {
+  console.log('Masih Kecil');
+} else if (umur > 17 && umur <= 30) {
+  console.log('Masih Remaja');
+} else if (umur > 30 && umur < 70) {
+  console.log('sudah tua');
+} else {
+  console.log('Sudah Meninggal');
+}
