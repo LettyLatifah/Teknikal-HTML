@@ -19,7 +19,8 @@ const onSubmit = (event) => {
   const { name, nohp } = event.target;
 
   listUser.innerHTML += `
-      <li>
+  
+      <li class="list-group-item">
         <p>${name.value} </p>
         <p>${nohp.value} </p>
       </li>
